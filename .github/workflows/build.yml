@@ -29,7 +29,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q MineNews-Android-Project(2).zip
+          unzip -q 'MineNews-Android-Project(2).zip'
           mv MineNews /tmp/MineNews
 
       - name: Build APK
